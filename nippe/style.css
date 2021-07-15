@@ -1,0 +1,401 @@
+/*
+Theme Name: nippe
+Version: 1.0
+Description: nippe theme
+Author: nippe
+*/
+
+
+body{
+  margin: 0 auto;
+}
+/* top */
+
+.top .container .hero_view{
+  height: 700px;
+  width: 100%;
+  background-image: url(/wp-content/themes/nippe/img/top1.jpg);
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+}
+
+.top .container .hero_view .hero_title{
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+.top .container .hero_view .hero_title ul li{
+  margin: 30px 0px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #2047A3;
+  padding: 10px;
+}
+.top .top_title{
+  width: 100%;
+  height: 75px;
+  background: #E8F0F4;
+}
+.top .top_title ul{
+  text-align: center;
+}
+.top .top_title ul li{
+  width: 100px;
+  height: 75px;
+  line-height: 75px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+.top .top_title ul li a{
+  color: #727272;
+}
+
+
+/* section */
+.top .section{
+  margin-bottom:50px;
+}
+.top .about{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background-color: #E8F0F4;
+
+}
+.top .about .about_img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+}
+.top .about .about_img img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top right;
+}
+.top .about .about_sec{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  min-width: 400px;
+height: 400px;
+  background: #fff;
+  z-index: 2;
+  padding: 20px;
+  margin: 0 auto;
+}
+.top .about .about_sec h2.title{
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+.top .about .about_sec p.disc{
+  line-height: 2;
+}
+
+
+.top .aboutus{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.top .aboutus h2.maintitle{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.top .aboutus .blocklist{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.top .aboutus .blocklist .block ul{
+  width: 100%;
+  text-align: center;
+}
+.top .aboutus .blocklist .block ul li{
+  width: 30%;
+  height: auto;
+  padding: 0px 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.top .aboutus .blocklist .block ul li dl dt{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.top .aboutus .blocklist .block ul li dl dt p.num{
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  font-size: 3vw;
+  z-index: 2;
+}
+.top .aboutus .blocklist .block ul li dl dt img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 50%;
+}
+.top .aboutus .blocklist .block ul li dl dt img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top .aboutus .blocklist .block ul li dl dd h2.title{
+  line-height: 2;
+}
+.top .aboutus .blocklist .block ul li dl dd p.disc{
+  text-align: left;
+  font-size: 15px;
+  padding: 20px 0px;
+  line-height: 1.5;
+}
+
+
+.top .service{
+  background: #E8F0F4;
+  padding-bottom: 50px;
+}
+
+.top .service .maintitle{
+  text-align: center;
+  padding: 50px;
+}
+.top .service .blocklist{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.top .service .blocklist .block ul{
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.top .service .blocklist .block ul li{
+  width: 175px;
+  height: 235px;
+  display: inline-block;
+  margin: 30px;
+  position: relative;
+}
+
+.top .service .blocklist .block .block_img{
+  height: 100%;
+}
+.top .service .blocklist .block .block_img1{
+  background-image: url(/wp-content/themes/nippe/img/top8.png);
+}
+.top .service .blocklist .block .block_img2{
+  background-image: url(/wp-content/themes/nippe/img/top9.png);
+}
+.top .service .blocklist .block .block_img3{
+  background-image: url(/wp-content/themes/nippe/img/top10.png);
+}
+.top .service .blocklist .block .block_img4{
+  background-image: url(/wp-content/themes/nippe/img/top11.png);
+}
+.top .service .blocklist .block .block_img5{
+  background-image: url(/wp-content/themes/nippe/img/top12.png);
+}
+.top .service .blocklist .block .block_img6{
+  background-image: url(/wp-content/themes/nippe/img/top13.png);
+}
+.top .service .blocklist .block .block_img7{
+  background-image: url(/wp-content/themes/nippe/img/top14.png);
+}
+.top .service .blocklist .block .block_img8{
+  background-image: url(/wp-content/themes/nippe/img/top15.png);
+}
+.top .service .blocklist .block .block_img .cover{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 195px;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 22px;
+  letter-spacing: 0.1em;
+}
+.top .service .blocklist .block ul li .block_txt{
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2047A3;
+  font-size: 15px;
+}
+.top .service .blocklist .block ul li .block_txt a p{
+  color: #FDFDFD;
+}
+
+
+.top .exam .section{
+  text-align: center;
+  padding: 50px;
+}
+.top .exam .maintitle{
+  text-align: center;
+  padding: 50px;
+}
+.top .exam .blocklist .block ul{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.top .exam .blocklist .block ul li{
+  width: 150px;
+  margin: 50px 15px;
+  display: inline-block;
+}
+
+.top .exam .blocklist .block ul li .block_img{
+  width: 150px;
+  height: 150px;
+}
+.top .exam .blocklist .block ul li .exam_img1_bef{
+  background-image: url(/wp-content/themes/nippe/img/top16.png);
+}
+.top .exam .blocklist .block ul li .exam_img1_aft{
+  background-image: url(/wp-content/themes/nippe/img/top17.png);
+}
+.top .exam .blocklist .block ul li .exam_img2_bef{
+  background-image: url(/wp-content/themes/nippe/img/top18.png);
+}
+.top .exam .blocklist .block ul li .exam_img2_aft{
+  background-image: url(/wp-content/themes/nippe/img/top19.png);
+}
+.top .exam .blocklist .block ul li .exam_img3_bef{
+  background-image: url(/wp-content/themes/nippe/img/top20.png);
+}
+.top .exam .blocklist .block ul li .exam_img3_aft{
+  background-image: url(/wp-content/themes/nippe/img/top21.png);
+}
+.top .exam .blocklist .block ul li .exam_img4_bef{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .exam_img4_aft{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .exam_img5_bef{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .exam_img5_aft{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .exam_img6_bef{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .exam_img6_aft{
+  background-image: url(/wp-content/themes/nippe/img/top22.png);
+}
+.top .exam .blocklist .block ul li .block_label{
+  text-align: left;
+
+}
+.top .exam .blocklist .block ul li .block_label p{
+  font-size: 10px;
+  color: #FDFDFD;
+  padding: 3px;
+  vertical-align: top;
+  background: #2047A3;
+  display: inline;
+}
+
+.top .exam .blocklist .block ul li .block_arrow{
+  width: 30px;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.top .company{
+  background: #E8F0F4;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-bottom:0px;
+}
+.top .company .maintitle{
+  text-align: center;
+  padding: 50px;
+}
+.top .company .blocklist{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+}
+.top .company .blocklist .block_sec{
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  width: 600px;
+  background: #2047A3;
+  padding: 50px;
+
+  color: #FDFDFD;
+}
+.top .company .blocklist .block_sec ul li{
+  padding: 20px;
+  border-bottom: 1px solid #FDFDFD;
+}
+.top .company .blocklist .block_sec dl dt{
+  display: inline-block;
+  width: 125px;
+  letter-spacing: 0.1em;
+}
+.top .company .blocklist .block_sec dl dd{
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+.top .company .blocklist .block_img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 600px;
+  height: 400px;
+}
+.top .company .blocklist .block_img img{
+  width: 100%;
+}
+
+
+/* service */
+.service .main .maintitle{
+  text-align: center;
+  padding: 50px;
+}
+.service .blocklist .block:nth-child(2n){
+  display: flex;
+  flex-direction: row-reverse;
+}
+.service .blocklist .block .item{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.service .blocklist .block .item_img img{
+  width: 100%;
+  height: auto;
+}
